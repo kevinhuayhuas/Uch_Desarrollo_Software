@@ -1,0 +1,9 @@
+instructions.configure = \
+addRepository(type:0,location:http${#58}//download.oracle.com/otn_software/oepe/mars,name:Oracle Enterprise Pack for Eclipse,enabled:true);\
+addRepository(type:1,location:http${#58}//download.oracle.com/otn_software/oepe/mars,name:Oracle Enterprise Pack for Eclipse,enabled:true);
+
+instructions.configure.import = \
+org.eclipse.equinox.p2.touchpoint.eclipse.addRepository
+
+properties.0.name = org.eclipse.wst.server.core.serverAdapter
+properties.0.value = true

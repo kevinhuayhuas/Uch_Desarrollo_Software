@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="oracle.eclipse.tools.glassfish" image="oepe-40.png" label="%featureName" plugin="oracle.eclipse.tools.glassfish" provider-name="%providerName" version="15.9.0.201612160740">
+
+   <description>
+      %featureDescription
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <requires>
+
+      <import feature="org.eclipse.platform" match="compatible" version="4.5"/>
+      
+      <import feature="org.eclipse.sapphire" match="compatible" version="9.1"/>
+      <import feature="org.eclipse.sapphire.java" match="compatible" version="9.1"/>
+      <import feature="org.eclipse.sapphire.java.jdt" match="compatible" version="9.1"/>
+      <import feature="org.eclipse.sapphire.modeling.xml" match="compatible" version="9.1"/>
+      <import feature="org.eclipse.sapphire.osgi" match="compatible" version="9.1"/>
+      <import feature="org.eclipse.sapphire.platform" match="compatible" version="9.1"/>
+      <import feature="org.eclipse.sapphire.ui" match="compatible" version="9.1"/>
+      <import feature="org.eclipse.sapphire.ui.swt.xml.editor" match="compatible" version="9.1"/>
+
+      <import plugin="oracle.eclipse.tools.javaee.doc.integration" version="15.9"/>
+
+   </requires>
+
+   <plugin download-size="0" id="oracle.eclipse.tools.glassfish" install-size="0" unpack="false" version="15.9.0.201612160740"/>
+   <plugin download-size="0" id="oracle.eclipse.tools.glassfish.ui" install-size="0" unpack="false" version="15.9.0.201612160740"/>
+
+</feature>

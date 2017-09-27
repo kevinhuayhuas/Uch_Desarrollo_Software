@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='Geronimo Server Adapter p2 Artifact Repository' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.compressed' value='false'/>
+    <property name='p2.timestamp' value='1369644697986'/>
+    <property name='p2.mirrorsURL' value='http://geronimo.apache.org/devtools/geronimo-eclipse-update--xml.cgi'/>
+  </properties>
+  <mappings size='2'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='26'>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.schemas' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='96447'/>
+        <property name='download.size' value='96447'/>
+        <property name='download.md5' value='d40436fdfab9f57bd868869ab1fff9fe'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.ui' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='217459'/>
+        <property name='download.size' value='217459'/>
+        <property name='download.md5' value='7591ef9d4bd3269fcdfdcd97c60283bd'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.core' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='148756'/>
+        <property name='download.size' value='148756'/>
+        <property name='download.md5' value='06826a76f2d220babcaa7f65d344ecb6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.v11.schemas' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='46407'/>
+        <property name='download.size' value='46407'/>
+        <property name='download.md5' value='113bf90026a7ca11e842b76109ea2b2a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.apache.geronimo.v30.feature' version='3.0.1'>
+      <properties size='4'>
+        <property name='artifact.size' value='46879'/>
+        <property name='download.size' value='46879'/>
+        <property name='download.md5' value='5e357ef1ffcd5987bbe15b9c3c5d9f8d'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.v20.ui' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='21436'/>
+        <property name='download.size' value='21436'/>
+        <property name='download.md5' value='38fe031e1187b498c483e6f741f42a25'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.v30.core' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='283809'/>
+        <property name='download.size' value='283809'/>
+        <property name='download.md5' value='a18b4085f1781115cc29a9cc6cd3de2b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.runtime.common' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='1356473'/>
+        <property name='download.size' value='1356473'/>
+        <property name='download.md5' value='61fc73569e830c08ae43fbced9c86162'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.v20.core' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='44763'/>
+        <property name='download.size' value='44763'/>
+        <property name='download.md5' value='8d57167a61f47667dfe9c7c4010d780f'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.jee.v22.jaxbmodel' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='31522'/>
+        <property name='download.size' value='31522'/>
+        <property name='download.md5' value='15e4196c93b8a5e39c39059d12637a39'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.v21.ui' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='376281'/>
+        <property name='download.size' value='376281'/>
+        <property name='download.md5' value='82e1ee2edeb37a4b93256b5cc9e1f63d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.jee.v21.jaxbmodel' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='182884'/>
+        <property name='download.size' value='182884'/>
+        <property name='download.md5' value='5cd58e542a1a599941ffebeb935de5be'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.runtime.v22' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='1349454'/>
+        <property name='download.size' value='1349454'/>
+        <property name='download.md5' value='6a0f698ba3497fc7d0516be38278926a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.runtime.v11' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='2496245'/>
+        <property name='download.size' value='2496245'/>
+        <property name='download.md5' value='9ff15625b615a6735d7eb6506c919d31'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.v21.core' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='82358'/>
+        <property name='download.size' value='82358'/>
+        <property name='download.md5' value='d8d9d1ff2885808540187d2530fddde7'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.v30.jaxbmodel' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='285479'/>
+        <property name='download.size' value='285479'/>
+        <property name='download.md5' value='d40850ed95bc7da746dd714519d15e2c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.v30.ui' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='645705'/>
+        <property name='download.size' value='645705'/>
+        <property name='download.md5' value='184733ef5973292b7504485f55979edb'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.runtime.v20' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='1349402'/>
+        <property name='download.size' value='1349402'/>
+        <property name='download.md5' value='b0ecabcb69646e7b2cf8b866a019c25a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.v22.core' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='64421'/>
+        <property name='download.size' value='64421'/>
+        <property name='download.md5' value='aa72a21f29ceb7cd55e1bff9be0687f8'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.j2ee.v11.jaxbmodel' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='212158'/>
+        <property name='download.size' value='212158'/>
+        <property name='download.md5' value='bf9c3726e2f689cc9edb1679b2e7bd41'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.v11.ui' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='221336'/>
+        <property name='download.size' value='221336'/>
+        <property name='download.md5' value='ce0de92c5ef74c2981110220802aa495'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.runtime.v21' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='1327766'/>
+        <property name='download.size' value='1327766'/>
+        <property name='download.md5' value='f6bef63e498695a0dcd45394543aa585'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.v22.ui' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='21370'/>
+        <property name='download.size' value='21370'/>
+        <property name='download.md5' value='027553acf5018cd19836de2c48d12073'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.runtime.v30' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='1773423'/>
+        <property name='download.size' value='1773423'/>
+        <property name='download.md5' value='45f26b3063d4e0a5531c5b20fe432ab9'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.st.v11.core' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='70184'/>
+        <property name='download.size' value='70184'/>
+        <property name='download.md5' value='0da94a5d7f2cb8425afa33db807a0826'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.geronimo.jaxbmodel.common' version='3.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='34338'/>
+        <property name='download.size' value='34338'/>
+        <property name='download.md5' value='70bf664e9f4e82ae68b2998bea7793ea'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
